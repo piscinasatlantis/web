@@ -1,0 +1,93 @@
+#pluginAppObj_5_58 {
+	max-width: 100%;
+}
+#slideShowContainer{
+	width: 300px;
+	max-width: 100%;
+	height:0;
+	position:relative;
+	padding-top: 80%;
+}
+
+#pluginAppObj_5_58 #slideShow{
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	left: 10%;
+	right: 90%;
+	width: 80%;
+	height: 100%;
+	background-color: rgba(128, 128, 128, 1);
+	z-index:100;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#pluginAppObj_5_58 #slideShow ul{
+	position:absolute;
+	top: 0.9900990099009901%;right: 0.9900990099009901%;bottom: 0.9900990099009901%;left: 0.9900990099009901%;
+	list-style: none;
+	overflow: hidden;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+
+#slideShow li{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+
+#pluginAppObj_5_58 #slideShow ul li #img_pluginAppObj_5_58_0 {
+	position: absolute;
+	height: 100%;
+	left: -18%;
+	right: -18%;
+	top: 0;
+	bottom: 0;
+}
+#pluginAppObj_5_58 #slideShow ul li #img_pluginAppObj_5_58_1 {
+	position: absolute;
+	height: 100%;
+	left: -19.166666666666668%;
+	right: -19.166666666666668%;
+	top: 0;
+	bottom: 0;
+}
+
+
+#slideShowContainer > a{
+	border:none;
+	overflow:hidden;
+	width:8%;
+	height:14%;
+	position:absolute;
+	top:43%;
+	bottom:43%;
+	border-radius: 30% 8%;
+	background-color: rgba(128, 128, 128, 1);
+}
+#pluginAppObj_5_58 a#previousLink > svg, 
+#pluginAppObj_5_58 a#nextLink > svg {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+}
+
+#pluginAppObj_5_58 a#previousLink{
+	left: 0;
+}
+
+#pluginAppObj_5_58 a#nextLink{
+	right: 0;
+}

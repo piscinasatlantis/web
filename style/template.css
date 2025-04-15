@@ -1,0 +1,69 @@
+html { position: relative; margin: 0; padding: 0; height: 100%; }
+body { margin: 0; padding: 0; text-align: left; height: 100%; }
+#imPageExtContainer {min-height: 100%; }
+#imPageIntContainer { position: relative;}
+#imPage { position: relative; width: 100%; }
+#imHeaderBg { position: absolute; left: 0; top: 0; width: 100%; }
+#imContent { position: relative; }
+#imFooterBg { position: absolute; left: 0; bottom: 0; width: 100%; }
+#imStickyBarContainer { visibility: hidden; position: fixed; overflow: hidden; }
+@media (min-width: 1150.0px) {
+		#imPageExtContainer { background-image: none; background-color: transparent; }
+		#imPage { padding-top: 0px; padding-bottom: 0px; min-width: 1150px; }
+		#imHeaderBg { height: 98px; background-image: none; background-color: transparent; }
+		#imHeader { background-image: url('careheader.png'); background-position: left top; background-repeat: repeat-x; background-attachment: scroll; background-color: transparent; }
+		#imHeaderObjects { margin-left: auto; margin-right: auto; position: relative; height: 98px; width:1150px; }
+		#imContent { align-self: start; padding: 0px 0 0px 0; }
+		#imContentGraphics { min-height: 600px; background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imFooterBg { height: 300px; background-image: none; background-color: transparent; }
+		#imFooter { background-image: none; background-color: transparent; }
+		#imFooterObjects { margin-left: auto; margin-right: auto; position: relative; height: 100px; width:1150px; }
+		#imSideBar { background-image: none; background-color: rgba(211, 218, 220, 1); overflow: visible; zoom: 1; z-index: 200; }
+		#imSideBarObjects { position: relative; height: 600px; }
+	
+}
+@media (max-width: 1149.9px) and (min-width: 720.0px) {
+		#imPageExtContainer { background-image: url('pixabay-3871755.png'); background-position: left top; background-repeat: repeat; background-attachment: scroll; background-color: rgba(255, 255, 255, 1); }
+		#imPage { padding-top: 0px; padding-bottom: 0px; min-width: 720px; }
+		#imHeaderBg { height: 98px; background-image: none; background-color: rgba(252, 244, 251, 1); }
+		#imHeader { background-image: url('careheader.png'); background-position: left top; background-repeat: repeat-x; background-attachment: scroll; background-color: transparent; }
+		#imHeaderObjects { margin-left: auto; margin-right: auto; position: relative; height: 98px; width:720px; }
+		#imContent { align-self: start; padding: 0px 0 0px 0; }
+		#imContentGraphics { min-height: 600px; background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imFooterBg { height: 300px; background-image: none; background-color: transparent; }
+		#imFooter { background-image: none; background-color: rgba(247, 247, 247, 1); }
+		#imFooterObjects { margin-left: auto; margin-right: auto; position: relative; height: 300px; width:720px; }
+		#imSideBar { background-image: none; background-color: rgba(211, 218, 220, 1); overflow: visible; zoom: 1; z-index: 200; }
+		#imSideBarObjects { position: relative; height: 600px; }
+	
+}
+@media (max-width: 719.9px) and (min-width: 480.0px) {
+		#imPageExtContainer { background-image: url('pixabay-3871755.png'); background-position: left top; background-repeat: repeat; background-attachment: scroll; background-color: rgba(255, 255, 255, 1); }
+		#imPage { padding-top: 0px; padding-bottom: 0px; min-width: 480px; }
+		#imHeaderBg { height: 98px; background-image: none; background-color: transparent; }
+		#imHeader { background-image: url('careheader.png'); background-position: left top; background-repeat: repeat-x; background-attachment: scroll; background-color: transparent; }
+		#imHeaderObjects { margin-left: auto; margin-right: auto; position: relative; height: 98px; width:480px; }
+		#imContent { align-self: start; padding: 0px 0 0px 0; }
+		#imContentGraphics { min-height: 600px; background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imFooterBg { height: 300px; background-image: none; background-color: transparent; }
+		#imFooter { background-image: none; background-color: rgba(247, 247, 247, 1); }
+		#imFooterObjects { margin-left: auto; margin-right: auto; position: relative; height: 300px; width:480px; }
+		#imSideBar { background-image: none; background-color: rgba(211, 218, 220, 1); overflow: visible; zoom: 1; z-index: 200; }
+		#imSideBarObjects { position: relative; height: 600px; }
+	
+}
+@media (max-width: 479.9px)  {
+		#imPageExtContainer { background-image: url('pixabay-3871755.png'); background-position: left top; background-repeat: repeat; background-attachment: scroll; background-color: rgba(255, 255, 255, 1); }
+		#imPage { padding-top: 0px; padding-bottom: 0px; }
+		#imHeaderBg { height: 98px; background-image: none; background-color: rgba(252, 244, 251, 1); }
+		#imHeader { background-image: url('careheader.png'); background-position: left top; background-repeat: repeat-x; background-attachment: scroll; background-color: transparent; }
+		#imHeaderObjects { margin-left: auto; margin-right: auto; position: relative; height: 98px; width:320px; }
+		#imContent { align-self: start; padding: 0px 0 0px 0; }
+		#imContentGraphics { min-height: 600px; background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imFooterBg { height: 300px; background-image: none; background-color: transparent; }
+		#imFooter { background-image: none; background-color: rgba(247, 247, 247, 1); }
+		#imFooterObjects { margin-left: auto; margin-right: auto; position: relative; height: 300px; width:320px; }
+		#imSideBar { background-image: none; background-color: rgba(211, 218, 220, 1); overflow: visible; zoom: 1; z-index: 200; }
+		#imSideBarObjects { position: relative; height: 600px; }
+	
+}
